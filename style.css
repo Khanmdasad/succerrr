@@ -2,8 +2,13 @@
     margin: 0px;
     padding: 0px;
     /* background-color: grey; */
+    box-sizing: border-box;
+    font-family: 'Gloock', serif;
+    font-family: 'Open Sans', sans-serif;;
 }
 
+
+/* navbar start*/
 #icon{
     width: 80px;
     border-radius: 50%
@@ -38,4 +43,57 @@
     color: #daa520;
     border: 2px solid black;
     background-color: black;
+}
+
+/* navbar end */
+
+/* About Section */
+
+.About{
+    width: 100%;
+    min-height: 50vh;
+    background-color: #daa520;
+    color: black;
+}
+
+.About h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-radius: 14px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+
+}
+
+.About p{
+    line-height: 1.5;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content{
+    float: right;
+    width: 55%;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.image-section{
+    float: left;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
