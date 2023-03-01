@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* background-color: grey; */
     box-sizing: border-box;
     font-family: 'Gloock', serif;
     font-family: 'Open Sans', sans-serif;;
@@ -66,13 +67,20 @@
     float: left;
     width: 40%;
     background-image: url(./bg1.jfif);
-    background-size: 100% 100%;
+    animation: slider 8s infinite linear;
+}
 
+@keyframes slider{
+    0%{ background-image: url('./bg1.jfif'); }
+
+    35%{ background-image: url('./bg2.webp'); }
+
+    75%{ background-image: url('./bg3.jfif'); }
 }
 
 /* slider ends */
 
-/* About Section Starts*/
+/* About Section */
 
 .About{
     width: 100%;
