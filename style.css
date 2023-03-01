@@ -47,6 +47,41 @@
 
 /* navbar end */
 
+/* slider starts */
+    
+.slider{
+    margin: 100px;
+    width: 45%;
+    height: 400px;
+}
+
+.slider .text-section{
+    float: right;
+    width: 55%;
+    margin-right: 100px;
+    box-sizing: border-box;
+    
+}
+
+.slider .img-section{
+    float: left;
+    width: 40%;
+    background-image: url(./bg1.jfif);
+    animation: slider 8s infinite linear;
+    background-size: 100% 100%;
+
+}
+
+@keyframes slider{
+    0%{ background-image: url('./bg1.jfif'); }
+
+    35%{ background-image: url('./bg2.webp'); }
+
+    75%{ background-image: url('./bg3.jfif'); }
+}
+
+/* slider ends */
+
 /* About Section */
 
 .About{
@@ -97,3 +132,5 @@
     height: auto;
     border-radius: 20px;
 }
+
+/* about section ends */
