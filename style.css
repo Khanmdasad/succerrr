@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#icon{
+    width: 80px;
+    border-radius: 50%
+}
+
+.demo{
+    border-radius: 18px;
+    margin-right: 80px;
+    color: black;
+    background-color: #d1af15;
+}
